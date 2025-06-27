@@ -1,0 +1,581 @@
+{
+  "msg_1695": {
+    "user_id": 8074497104,
+    "order_id": 173203,
+    "thread_id": 1694
+  },
+  "thread_1694": {
+    "user_id": 8074497104,
+    "order_id": 173203
+  },
+  "thread_1737": {
+    "user_id": "8074497104",
+    "order_id": null
+  },
+  "msg_1746": {
+    "user_id": 8074497104,
+    "order_id": 173207,
+    "thread_id": 1745
+  },
+  "thread_1745": {
+    "user_id": 8074497104,
+    "order_id": 173207
+  },
+  "msg_1757": {
+    "user_id": 8074497104,
+    "order_id": 173208,
+    "thread_id": 1756
+  },
+  "thread_1756": {
+    "user_id": 8074497104,
+    "order_id": 173208
+  },
+  "payment_173208": {
+    "user_id": 8074497104,
+    "amount": 32500,
+    "order_id": 173208,
+    "thread_id": 1756,
+    "status": "confirmed"
+  },
+  "payment_173209": {
+    "user_id": 8074497104,
+    "amount": 32500,
+    "order_id": 173209,
+    "thread_id": 1765,
+    "status": "confirmed",
+    "confirmation_time": "2025-06-23 21:35:09"
+  },
+  "payment_173211": {
+    "user_id": 8074497104,
+    "amount": 15000,
+    "order_id": 173211,
+    "thread_id": 1789,
+    "status": "confirmed",
+    "confirmation_time": "2025-06-23 22:09:41"
+  },
+  "msg_1798": {
+    "user_id": 7559161145,
+    "order_id": 173212,
+    "thread_id": 1797
+  },
+  "user_7559161145": {
+    "order_id": 173212,
+    "thread_id": 1797,
+    "is_operator_started": true
+  },
+  "thread_1797": {
+    "user_id": 7559161145,
+    "order_id": 173212
+  },
+  "payment_173212": {
+    "user_id": 7559161145,
+    "amount": 15000,
+    "order_id": 173212,
+    "thread_id": 1797,
+    "status": "confirmed",
+    "confirmation_time": "2025-06-23 23:14:51"
+  },
+  "payment_173214": {
+    "user_id": 5801216854,
+    "amount": 32500,
+    "order_id": 173214,
+    "thread_id": 1813,
+    "status": "confirmed",
+    "confirmation_time": "2025-06-24 00:25:14"
+  },
+  "services": [
+    {
+      "id": 2,
+      "name": "Sudlanmaganli to'g'risida guvohnoma",
+      "price": 884300,
+      "payment_methods": [
+        "Karta bilan"
+      ],
+      "image": null,
+      "used": 101,
+      "category": "Belgilanmagan",
+      "active": false
+    },
+    {
+      "id": 3,
+      "name": "3 - DAVERNOS",
+      "price": 32500,
+      "payment_methods": [
+        "Click",
+        "Payme",
+        "Karta bilan"
+      ],
+      "image": "AgACAgIAAxkBAAIE3mhPTxl0Jt10PTTn_IRxSYivXcsiAAJO7jEb5M55Sj5G92zAtJTFAQADAgADeAADNgQ",
+      "used": 171,
+      "category": "Belgilanmagan",
+      "active": true
+    },
+    {
+      "id": 3,
+      "name": "ISHONCHNOMA",
+      "price": 80000,
+      "payment_methods": [
+        "Click",
+        "Karta bilan",
+        "Payme"
+      ],
+      "image": "AgACAgQAAxkBAAIGU2hRe6O6jH-IPu_wR2dgVU9DlFIPAAJ2tjEbv861USz-FGFFYNj_AQADAgADeQADNgQ",
+      "category": "Belgilanmagan",
+      "active": true
+    },
+    {
+      "id": 4,
+      "name": "Sudlanmaganlik toʻgʻrisida guvohnoma",
+      "price": 87500,
+      "payment_methods": [
+        "Karta bilan"
+      ],
+      "image": "AgACAgQAAxkBAAIelWhdV3Bb_ee4bMRpJ07y_ZvEbSP_AAKZtzEb1HsUU2y8PfErD-OjAQADAgADeAADNgQ",
+      "used": 62,
+      "category": "Belgilanmagan",
+      "active": true
+    },
+    {
+      "id": 13,
+      "name": "deport tekshirish",
+      "price": 15000,
+      "payment_methods": [
+        "Click"
+      ],
+      "image": "AgACAgQAAxkBAAIahWha529ekwVMctFmqUtjVToubezxAAJYtDEbIY41UjbMzPmAoo46AQADAgADeQADNgQ",
+      "category": "#davxizmat",
+      "active": true,
+      "used": 10
+    },
+    {
+      "id": 12,
+      "name": "lisenziya",
+      "price": 15000,
+      "payment_methods": [
+        "Karta bilan"
+      ],
+      "image": "AgACAgIAAxkBAAIcy2hcF6HigdC2nyn-yhqDBS3fR0yvAAKP-jEbmPbgStHiYSDAoPCbAQADAgADeAADNgQ",
+      "category": "print",
+      "active": true,
+      "used": 2
+    }
+  ],
+  "msg_1824": {
+    "user_id": 5801216854,
+    "order_id": 173215,
+    "thread_id": 1823
+  },
+  "thread_1823": {
+    "user_id": 5801216854,
+    "order_id": 173215
+  },
+  "payment_173215": {
+    "user_id": 5801216854,
+    "amount": 87500,
+    "order_id": 173215,
+    "thread_id": 1823,
+    "status": "confirmed",
+    "confirmation_time": "2025-06-24 01:31:24"
+  },
+  "payment_173216": {
+    "user_id": 8074497104,
+    "amount": 12000,
+    "order_id": 173216,
+    "thread_id": 1835,
+    "status": "confirmed",
+    "confirmation_time": "2025-06-24 02:08:39"
+  },
+  "payment_173217": {
+    "user_id": 8074497104,
+    "amount": 87500,
+    "order_id": 173217,
+    "thread_id": 1849,
+    "status": "confirmed",
+    "confirmation_time": "2025-06-24 02:21:03"
+  },
+  "msg_1876": {
+    "user_id": 553740532,
+    "order_id": 173219,
+    "thread_id": 1875
+  },
+  "thread_1875": {
+    "user_id": 553740532,
+    "order_id": 173219
+  },
+  "payment_173219": {
+    "user_id": 553740532,
+    "amount": 12000,
+    "order_id": 173219,
+    "thread_id": 1875,
+    "status": "confirmed",
+    "confirmation_time": "2025-06-24 02:26:12"
+  },
+  "msg_1900": {
+    "user_id": 7356155667,
+    "order_id": 173223,
+    "thread_id": 1899
+  },
+  "user_7356155667": {
+    "order_id": 173256,
+    "thread_id": 2190,
+    "is_operator_started": true
+  },
+  "thread_1899": {
+    "user_id": 7356155667,
+    "order_id": 173223
+  },
+  "payment_173223": {
+    "user_id": 7356155667,
+    "amount": 15000,
+    "order_id": 173223,
+    "thread_id": 1899,
+    "status": "confirmed",
+    "confirmation_time": "2025-06-24 23:02:09"
+  },
+  "payment_173224": {
+    "user_id": 8074497104,
+    "amount": 15000,
+    "order_id": 173224,
+    "thread_id": 1910,
+    "status": "confirmed",
+    "confirmation_time": "2025-06-25 12:55:23"
+  },
+  "thread_1955": {
+    "user_id": "8074497104",
+    "order_id": null
+  },
+  "msg_1965": {
+    "user_id": 8074497104,
+    "order_id": 173225,
+    "thread_id": 1964
+  },
+  "thread_1964": {
+    "user_id": 8074497104,
+    "order_id": 173225
+  },
+  "payment_173225": {
+    "user_id": 8074497104,
+    "amount": 15000,
+    "order_id": 173225,
+    "thread_id": 1964,
+    "status": "confirmed",
+    "confirmation_time": "2025-06-25 13:15:51"
+  },
+  "payment_173227": {
+    "user_id": 8074497104,
+    "amount": 87500,
+    "order_id": 173227,
+    "thread_id": 1981,
+    "status": "confirmed",
+    "confirmation_time": "2025-06-25 14:10:11"
+  },
+  "msg_1991": {
+    "user_id": 5801216854,
+    "order_id": 173228,
+    "thread_id": 1990
+  },
+  "thread_1990": {
+    "user_id": 5801216854,
+    "order_id": 173228
+  },
+  "payment_173228": {
+    "user_id": 5801216854,
+    "amount": 12000,
+    "order_id": 173228,
+    "thread_id": 1990,
+    "status": "confirmed",
+    "confirmation_time": "2025-06-25 14:46:22"
+  },
+  "msg_2006": {
+    "user_id": 5801216854,
+    "order_id": 173230,
+    "thread_id": 2005
+  },
+  "thread_2005": {
+    "user_id": 5801216854,
+    "order_id": 173230
+  },
+  "payment_173232": {
+    "user_id": 5801216854,
+    "amount": 87500,
+    "order_id": 173232,
+    "thread_id": 2012,
+    "status": "confirmed",
+    "confirmation_time": "2025-06-25 16:02:53"
+  },
+  "msg_2034": {
+    "user_id": 553740532,
+    "order_id": 173234,
+    "thread_id": 2033
+  },
+  "thread_2033": {
+    "user_id": 553740532,
+    "order_id": 173234
+  },
+  "payment_173237": {
+    "user_id": 553740532,
+    "amount": 15000,
+    "order_id": 173237,
+    "thread_id": 2050,
+    "status": "confirmed",
+    "confirmation_time": "2025-06-25 20:16:08"
+  },
+  "thread_2073": {
+    "user_id": 553740532,
+    "order_id": null
+  },
+  "msg_2083": {
+    "user_id": 6676389085,
+    "order_id": 173239,
+    "thread_id": 2082
+  },
+  "thread_2082": {
+    "user_id": 6676389085,
+    "order_id": 173239
+  },
+  "msg_2085": {
+    "user_id": 6676389085,
+    "order_id": 173240,
+    "thread_id": 2084
+  },
+  "thread_2084": {
+    "user_id": 6676389085,
+    "order_id": 173240
+  },
+  "payment_173240": {
+    "user_id": 6676389085,
+    "amount": 32500,
+    "order_id": 173240,
+    "thread_id": 2084,
+    "status": "confirmed",
+    "confirmation_time": "2025-06-26 14:48:35"
+  },
+  "msg_2100": {
+    "user_id": 8074497104,
+    "order_id": 173242,
+    "thread_id": 2099
+  },
+  "user_8074497104": {
+    "order_id": 173263,
+    "thread_id": 2257,
+    "is_operator_started": true
+  },
+  "thread_2099": {
+    "user_id": 8074497104,
+    "order_id": 173242
+  },
+  "payment_173242": {
+    "user_id": 8074497104,
+    "amount": 12000,
+    "order_id": 173242,
+    "thread_id": 2099,
+    "status": "confirmed",
+    "confirmation_time": "2025-06-25 21:50:22"
+  },
+  "msg_2125": {
+    "user_id": 8074497104,
+    "order_id": 173249,
+    "thread_id": 2124
+  },
+  "thread_2124": {
+    "user_id": 8074497104,
+    "order_id": 173249
+  },
+  "msg_2134": {
+    "user_id": 553740532,
+    "order_id": 173250,
+    "thread_id": 2133
+  },
+  "thread_2133": {
+    "user_id": 553740532,
+    "order_id": 173250
+  },
+  "payment_173250": {
+    "user_id": 553740532,
+    "amount": 32500,
+    "order_id": 173250,
+    "thread_id": 2133,
+    "status": "confirmed",
+    "confirmation_time": "2025-06-26 12:28:28"
+  },
+  "payment_173252": {
+    "user_id": 553740532,
+    "amount": 87500,
+    "order_id": 173252,
+    "thread_id": 2144,
+    "status": "confirmed",
+    "confirmation_time": "2025-06-26 12:39:46"
+  },
+  "msg_2158": {
+    "user_id": 553740532,
+    "order_id": 173253,
+    "thread_id": 2157
+  },
+  "thread_2157": {
+    "user_id": 553740532,
+    "order_id": 173253
+  },
+  "payment_173253": {
+    "user_id": 553740532,
+    "amount": 884300,
+    "order_id": 173253,
+    "thread_id": 2157,
+    "status": "confirmed",
+    "confirmation_time": "2025-06-26 19:27:07"
+  },
+  "msg_2173": {
+    "user_id": 553740532,
+    "order_id": 173254,
+    "thread_id": 2172
+  },
+  "thread_2172": {
+    "user_id": 553740532,
+    "order_id": 173254
+  },
+  "payment_173255": {
+    "user_id": 553740532,
+    "amount": 87500,
+    "order_id": 173255,
+    "thread_id": 2178,
+    "status": "confirmed",
+    "confirmation_time": "2025-06-26 19:46:28"
+  },
+  "msg_2191": {
+    "user_id": 7356155667,
+    "order_id": 173256,
+    "thread_id": 2190
+  },
+  "thread_2190": {
+    "user_id": 7356155667,
+    "order_id": 173256
+  },
+  "payment_173256": {
+    "user_id": 7356155667,
+    "amount": 15000,
+    "order_id": 173256,
+    "thread_id": 2190,
+    "status": "confirmed",
+    "confirmation_time": "2025-06-26 20:33:34"
+  },
+  "payment_173257": {
+    "user_id": 553740532,
+    "amount": 87500,
+    "order_id": 173257,
+    "thread_id": 2200,
+    "status": "confirmed",
+    "confirmation_time": "2025-06-27 02:27:56"
+  },
+  "msg_2215": {
+    "user_id": 553740532,
+    "order_id": 173259,
+    "thread_id": 2214
+  },
+  "thread_2214": {
+    "user_id": 553740532,
+    "order_id": 173259
+  },
+  "msg_2233": {
+    "user_id": 8074497104,
+    "order_id": 173260,
+    "thread_id": 2232
+  },
+  "thread_2232": {
+    "user_id": 8074497104,
+    "order_id": 173260
+  },
+  "settings": {
+    "admin_id": 6654453609
+  },
+  "msg_2246": {
+    "user_id": 553740532,
+    "order_id": 173262,
+    "thread_id": 2245
+  },
+  "thread_2245": {
+    "user_id": 553740532,
+    "order_id": 173262
+  },
+  "payment_173262": {
+    "user_id": 553740532,
+    "amount": 32500,
+    "order_id": 173262,
+    "thread_id": 2245,
+    "status": "awaiting_confirmation"
+  },
+  "msg_2258": {
+    "user_id": 8074497104,
+    "order_id": 173263,
+    "thread_id": 2257
+  },
+  "thread_2257": {
+    "user_id": 8074497104,
+    "order_id": 173263
+  },
+  "payment_173266": {
+    "user_id": 553740532,
+    "amount": 87500,
+    "order_id": 173266,
+    "thread_id": 2274,
+    "status": "pending"
+  },
+  "msg_2284": {
+    "user_id": 6654453609,
+    "order_id": 173267,
+    "thread_id": 2283
+  },
+  "user_6654453609": {
+    "order_id": 173268,
+    "thread_id": 2291,
+    "is_operator_started": true
+  },
+  "thread_2283": {
+    "user_id": 6654453609,
+    "order_id": 173267
+  },
+  "msg_2292": {
+    "user_id": 6654453609,
+    "order_id": 173268,
+    "thread_id": 2291
+  },
+  "thread_2291": {
+    "user_id": 6654453609,
+    "order_id": 173268
+  },
+  "payment_173268": {
+    "user_id": 6654453609,
+    "amount": 87500,
+    "order_id": 173268,
+    "thread_id": 2291,
+    "status": "confirmed",
+    "confirmation_time": "2025-06-27 11:21:54"
+  },
+  "payment_173269": {
+    "user_id": 7656975212,
+    "amount": 15000,
+    "order_id": 173269,
+    "thread_id": 2309,
+    "status": "confirmed",
+    "confirmation_time": "2025-06-27 11:42:39"
+  },
+  "msg_2343": {
+    "user_id": 553740532,
+    "order_id": 173271,
+    "thread_id": 2342
+  },
+  "user_553740532": {
+    "order_id": 173271,
+    "thread_id": 2342,
+    "is_operator_started": true
+  },
+  "thread_2342": {
+    "user_id": 553740532,
+    "order_id": 173271
+  },
+  "payment_173271": {
+    "user_id": 553740532,
+    "amount": 87500,
+    "order_id": 173271,
+    "thread_id": 2342,
+    "status": "pending"
+  }
+}

@@ -1,0 +1,1012 @@
+{
+  "8074497104": {
+    "name": "nurzod",
+    "rated_identifiers": [
+      "993",
+      "998",
+      "1059",
+      "1072",
+      "1084",
+      "173158",
+      "1156",
+      "173167",
+      "173169",
+      "173174",
+      "1402",
+      "173178",
+      "173194",
+      "173195",
+      "173196",
+      "173197",
+      "173198",
+      "173199",
+      "173200",
+      "173201",
+      "173202",
+      "173203",
+      "173204",
+      "1714",
+      "173205",
+      "1737",
+      "173207",
+      "173209",
+      "1778",
+      "173217",
+      "173224",
+      "173216",
+      "1867",
+      "173211",
+      "1774",
+      "173210",
+      "173225",
+      "173260",
+      "173263"
+    ],
+    "phone": "998880190777",
+    "orders": [
+      {
+        "order_id": 173173,
+        "service_id": 4,
+        "service_name": "Sudlanmaganlik toʻgʻrisida guvohnoma",
+        "contact_method": "☎️ Qo‘ng‘iroq orqali",
+        "contact_time": "dfdffd",
+        "status": "pending",
+        "timestamp": "2025-06-23 02:07:25",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173174,
+        "service_id": 3,
+        "service_name": "3 - DAVERNOS",
+        "contact_method": "☎️ Qo‘ng‘iroq orqali",
+        "contact_time": "41635841",
+        "status": "completed",
+        "timestamp": "2025-06-23 09:59:55",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173176,
+        "service_id": 3,
+        "service_name": "3 - DAVERNOS",
+        "contact_method": "📩 SMS orqali",
+        "contact_time": "454",
+        "status": "pending",
+        "timestamp": "2025-06-23 10:13:51",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173177,
+        "service_id": 3,
+        "service_name": "3 - DAVERNOS",
+        "contact_method": "☎️ Qo‘ng‘iroq orqali",
+        "contact_time": "rrr",
+        "status": "pending",
+        "timestamp": "2025-06-23 10:22:54",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173178,
+        "service_id": 4,
+        "service_name": "Sudlanmaganlik toʻgʻrisida guvohnoma",
+        "contact_method": "📱 Shu bot orqali",
+        "contact_time": "zdzd",
+        "status": "cancelled",
+        "timestamp": "2025-06-23 10:23:49",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173179,
+        "service_id": 4,
+        "service_name": "Sudlanmaganlik toʻgʻrisida guvohnoma",
+        "contact_method": "☎️ Qo‘ng‘iroq orqali",
+        "contact_time": "ollpl",
+        "status": "pending",
+        "timestamp": "2025-06-23 10:26:52",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173180,
+        "service_id": 3,
+        "service_name": "3 - DAVERNOS",
+        "contact_method": "☎️ Qo‘ng‘iroq orqali",
+        "contact_time": "sdsddss",
+        "status": "pending",
+        "timestamp": "2025-06-23 10:36:11",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173182,
+        "service_id": 3,
+        "service_name": "3 - DAVERNOS",
+        "contact_method": "☎️ Qo‘ng‘iroq orqali",
+        "contact_time": "44r4",
+        "status": "completed",
+        "timestamp": "2025-06-23 10:48:49",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173183,
+        "service_id": 3,
+        "service_name": "3 - DAVERNOS",
+        "contact_method": "☎️ Qo‘ng‘iroq orqali",
+        "contact_time": "l;ll;4",
+        "status": "pending",
+        "timestamp": "2025-06-23 10:49:48",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173184,
+        "service_id": 4,
+        "service_name": "Sudlanmaganlik toʻgʻrisida guvohnoma",
+        "contact_method": "📱 Shu bot orqali",
+        "contact_time": "sdsds",
+        "status": "pending",
+        "timestamp": "2025-06-23 10:56:39",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173185,
+        "service_id": 3,
+        "service_name": "3 - DAVERNOS",
+        "contact_method": "☎️ Qo‘ng‘iroq orqali",
+        "contact_time": "dsdsds",
+        "status": "pending",
+        "timestamp": "2025-06-23 11:01:15",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173186,
+        "service_id": 3,
+        "service_name": "3 - DAVERNOS",
+        "contact_method": "📩 SMS orqali",
+        "contact_time": "grg",
+        "status": "pending",
+        "timestamp": "2025-06-23 11:42:49",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173187,
+        "service_id": 3,
+        "service_name": "3 - DAVERNOS",
+        "contact_method": "📩 SMS orqali",
+        "contact_time": "llk",
+        "status": "pending",
+        "timestamp": "2025-06-23 11:54:41",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173188,
+        "service_id": 4,
+        "service_name": "Sudlanmaganlik toʻgʻrisida guvohnoma",
+        "contact_method": "☎️ Qo‘ng‘iroq orqali",
+        "contact_time": "dfdfd",
+        "status": "pending",
+        "timestamp": "2025-06-23 11:57:12",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173189,
+        "service_id": 3,
+        "service_name": "3 - DAVERNOS",
+        "contact_method": "📱 Shu bot orqali",
+        "contact_time": "sdsds",
+        "status": "pending",
+        "timestamp": "2025-06-23 12:37:14",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173190,
+        "service_id": 3,
+        "service_name": "3 - DAVERNOS",
+        "contact_method": "📩 SMS orqali",
+        "contact_time": "dfddff",
+        "status": "pending",
+        "timestamp": "2025-06-23 12:43:47",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173191,
+        "service_id": 4,
+        "service_name": "Sudlanmaganlik toʻgʻrisida guvohnoma",
+        "contact_method": "📩 SMS orqali",
+        "contact_time": "wdwwdwd",
+        "status": "pending",
+        "timestamp": "2025-06-23 12:49:25",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173193,
+        "service_id": 3,
+        "service_name": "3 - DAVERNOS",
+        "contact_method": "🔄 Boshqa usul",
+        "contact_time": "feefef",
+        "status": "pending",
+        "timestamp": "2025-06-23 13:54:53",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173194,
+        "service_id": 3,
+        "service_name": "3 - DAVERNOS",
+        "contact_method": "☎️ Qo‘ng‘iroq orqali",
+        "contact_time": "brrfefef",
+        "status": "completed",
+        "timestamp": "2025-06-23 14:41:47",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173195,
+        "service_id": 3,
+        "service_name": "3 - DAVERNOS",
+        "contact_method": "📩 SMS orqali",
+        "contact_time": "sdsds",
+        "status": "completed",
+        "timestamp": "2025-06-23 14:44:16",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173196,
+        "service_id": 3,
+        "service_name": "3 - DAVERNOS",
+        "contact_method": "☎️ Qo‘ng‘iroq orqali",
+        "contact_time": "4454",
+        "status": "completed",
+        "timestamp": "2025-06-23 14:52:10",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173197,
+        "service_id": 3,
+        "service_name": "3 - DAVERNOS",
+        "contact_method": "☎️ Qo‘ng‘iroq orqali",
+        "contact_time": "wdwwdwdw",
+        "status": "completed",
+        "timestamp": "2025-06-23 14:56:58",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173198,
+        "service_id": 3,
+        "service_name": "3 - DAVERNOS",
+        "contact_method": "☎️ Qo‘ng‘iroq orqali",
+        "contact_time": "sdsdds",
+        "status": "cancelled",
+        "timestamp": "2025-06-23 15:04:24",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173199,
+        "service_id": 3,
+        "service_name": "3 - DAVERNOS",
+        "contact_method": "📩 SMS orqali",
+        "contact_time": "sasa",
+        "status": "completed",
+        "timestamp": "2025-06-23 17:29:41",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173200,
+        "service_id": 4,
+        "service_name": "Sudlanmaganlik toʻgʻrisida guvohnoma",
+        "contact_method": "☎️ Qo‘ng‘iroq orqali",
+        "contact_time": "asasas",
+        "status": "completed",
+        "timestamp": "2025-06-23 17:45:37",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173201,
+        "service_id": 3,
+        "service_name": "3 - DAVERNOS",
+        "contact_method": "📩 SMS orqali",
+        "contact_time": "dfdf",
+        "status": "cancelled",
+        "timestamp": "2025-06-23 17:54:59",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173202,
+        "service_id": 4,
+        "service_name": "Sudlanmaganlik toʻgʻrisida guvohnoma",
+        "contact_method": "📩 SMS orqali",
+        "contact_time": "wwdwd",
+        "status": "cancelled",
+        "timestamp": "2025-06-23 17:56:51",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173203,
+        "service_id": 4,
+        "service_name": "Sudlanmaganlik toʻgʻrisida guvohnoma",
+        "contact_method": "☎️ Qo‘ng‘iroq orqali",
+        "contact_time": "dssds",
+        "status": "completed",
+        "timestamp": "2025-06-23 17:59:00",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173204,
+        "service_id": 3,
+        "service_name": "3 - DAVERNOS",
+        "contact_method": "☎️ Qo‘ng‘iroq orqali",
+        "contact_time": "sddsds",
+        "status": "completed",
+        "timestamp": "2025-06-23 18:10:22",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173205,
+        "service_id": 3,
+        "service_name": "3 - DAVERNOS",
+        "contact_method": "📱 Shu bot orqali",
+        "contact_time": "ghj",
+        "status": "cancelled",
+        "timestamp": "2025-06-23 18:19:59",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173207,
+        "service_id": 3,
+        "service_name": "3 - DAVERNOS",
+        "contact_method": "📩 SMS orqali",
+        "contact_time": "dsdsd",
+        "status": "completed",
+        "timestamp": "2025-06-23 20:53:14",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173208,
+        "service_id": 3,
+        "service_name": "3 - DAVERNOS",
+        "contact_method": "🔄 Boshqa usul",
+        "contact_time": "csccs",
+        "status": "completed",
+        "timestamp": "2025-06-23 21:22:37",
+        "payment_status": "confirmed"
+      },
+      {
+        "order_id": 173209,
+        "service_id": 3,
+        "service_name": "3 - DAVERNOS",
+        "contact_method": "☎️ Qo‘ng‘iroq orqali",
+        "contact_time": "211",
+        "status": "completed",
+        "timestamp": "2025-06-23 21:33:53",
+        "payment_status": "confirmed"
+      },
+      {
+        "order_id": 173210,
+        "service_id": 3,
+        "service_name": "3 - DAVERNOS",
+        "contact_method": "📱 Shu bot orqali",
+        "contact_time": "dsd",
+        "status": "cancelled",
+        "timestamp": "2025-06-23 21:43:42",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173211,
+        "service_id": 2,
+        "service_name": "Sudlanmaganli to'g'risida guvohnoma",
+        "contact_method": "☎️ Qo‘ng‘iroq orqali",
+        "contact_time": "dfdfdf",
+        "status": "cancelled",
+        "timestamp": "2025-06-23 22:08:21",
+        "payment_status": "confirmed"
+      },
+      {
+        "order_id": 173216,
+        "service_id": 11,
+        "service_name": "SOLIQ",
+        "contact_method": "☎️ Qo‘ng‘iroq orqali",
+        "contact_time": "hiozir",
+        "status": "completed",
+        "timestamp": "2025-06-24 02:07:31",
+        "payment_status": "confirmed"
+      },
+      {
+        "order_id": 173217,
+        "service_id": 4,
+        "service_name": "Sudlanmaganlik toʻgʻrisida guvohnoma",
+        "contact_method": "☎️ Qo‘ng‘iroq orqali",
+        "contact_time": "cddcc",
+        "status": "completed",
+        "timestamp": "2025-06-24 02:12:08",
+        "payment_status": "confirmed"
+      },
+      {
+        "order_id": 173220,
+        "service_id": 4,
+        "service_name": "Sudlanmaganlik toʻgʻrisida guvohnoma",
+        "contact_method": "🔄 Boshqa usul",
+        "contact_time": "5415",
+        "status": "pending",
+        "timestamp": "2025-06-24 03:05:33",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173224,
+        "service_id": 2,
+        "service_name": "Sudlanmaganli to'g'risida guvohnoma",
+        "contact_method": "📱 Shu bot orqali",
+        "contact_time": "fdfddfd",
+        "status": "completed",
+        "timestamp": "2025-06-25 11:41:07",
+        "payment_status": "confirmed"
+      },
+      {
+        "order_id": 173225,
+        "service_id": 2,
+        "service_name": "Sudlanmaganli to'g'risida guvohnoma",
+        "contact_method": "☎️ Qo‘ng‘iroq orqali",
+        "contact_time": "kjhuhu",
+        "status": "completed",
+        "timestamp": "2025-06-25 13:13:23",
+        "payment_status": "confirmed"
+      },
+      {
+        "order_id": 173226,
+        "service_id": 11,
+        "service_name": "SOLIQ",
+        "contact_method": "📱 Shu bot orqali",
+        "contact_time": "dcdd",
+        "status": "pending",
+        "timestamp": "2025-06-25 14:07:15",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173227,
+        "service_id": 4,
+        "service_name": "Sudlanmaganlik toʻgʻrisida guvohnoma",
+        "contact_method": "📩 SMS orqali",
+        "contact_time": "dfdfdf",
+        "status": "cancelled",
+        "timestamp": "2025-06-25 14:08:54",
+        "payment_status": "confirmed"
+      },
+      {
+        "order_id": 173242,
+        "service_id": 11,
+        "service_name": "SOLIQ",
+        "contact_method": "📱 Shu bot orqali",
+        "contact_time": "sdsdsds",
+        "status": "pending",
+        "timestamp": "2025-06-25 21:26:28",
+        "payment_status": "confirmed"
+      },
+      {
+        "order_id": 173243,
+        "service_id": 3,
+        "service_name": "3 - DAVERNOS",
+        "contact_method": "☎️ Qo‘ng‘iroq orqali",
+        "contact_time": "sdsds",
+        "status": "pending",
+        "timestamp": "2025-06-25 21:53:10",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173249,
+        "service_id": 11,
+        "service_name": "SOLIQ",
+        "contact_method": "📱 Shu bot orqali",
+        "contact_time": "fdfdf",
+        "status": "completed",
+        "timestamp": "2025-06-26 01:23:09",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173260,
+        "service_id": 3,
+        "service_name": "3 - DAVERNOS",
+        "contact_method": "📩 SMS orqali",
+        "contact_time": "Hhjn",
+        "status": "completed",
+        "timestamp": "2025-06-27 02:30:49",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173263,
+        "service_id": 12,
+        "service_name": "lisenziya",
+        "contact_method": "☎️ Qo‘ng‘iroq orqali",
+        "contact_time": "Llsls",
+        "status": "completed",
+        "timestamp": "2025-06-27 03:18:43",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173264,
+        "service_id": 3,
+        "service_name": "3 - DAVERNOS",
+        "contact_method": "📩 SMS orqali",
+        "contact_time": "Kkkko",
+        "status": "pending",
+        "timestamp": "2025-06-27 03:21:47",
+        "payment_status": "pending"
+      }
+    ],
+    "feedback_ratings": {
+      "173260": 5,
+      "173263": 5
+    }
+  },
+  "553740532": {
+    "name": "Suxrob",
+    "rated_identifiers": [
+      "1004",
+      "173219",
+      "173234",
+      "173238",
+      "173252",
+      "173253",
+      "173255",
+      "173257",
+      "173258",
+      "173259",
+      "173270"
+    ],
+    "phone": "+998200220211",
+    "orders": [
+      {
+        "order_id": 173219,
+        "service_id": 11,
+        "service_name": "SOLIQ",
+        "contact_method": "☎️ Qo‘ng‘iroq orqali",
+        "contact_time": "Jckckck",
+        "status": "completed",
+        "timestamp": "2025-06-24 02:24:57",
+        "payment_status": "confirmed"
+      },
+      {
+        "order_id": 173234,
+        "service_id": 4,
+        "service_name": "Sudlanmaganlik toʻgʻrisida guvohnoma",
+        "contact_method": "📱 Shu bot orqali",
+        "contact_time": "dfdfd",
+        "status": "completed",
+        "timestamp": "2025-06-25 20:09:47",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173237,
+        "service_id": 13,
+        "service_name": "deport tekshirish",
+        "contact_method": "📩 SMS orqali",
+        "contact_time": "dfdfdf",
+        "status": "completed",
+        "timestamp": "2025-06-25 20:14:06",
+        "payment_status": "confirmed"
+      },
+      {
+        "order_id": 173238,
+        "service_id": 13,
+        "service_name": "deport tekshirish",
+        "contact_method": "📩 SMS orqali",
+        "contact_time": "sdfdf",
+        "status": "cancelled",
+        "timestamp": "2025-06-25 20:20:21",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173250,
+        "service_id": 3,
+        "service_name": "3 - DAVERNOS",
+        "contact_method": "📩 SMS orqali",
+        "contact_time": "ssas",
+        "status": "pending",
+        "timestamp": "2025-06-26 12:08:17",
+        "payment_status": "confirmed"
+      },
+      {
+        "order_id": 173252,
+        "service_id": 4,
+        "service_name": "Sudlanmaganlik toʻgʻrisida guvohnoma",
+        "contact_method": "☎️ Qo‘ng‘iroq orqali",
+        "contact_time": "sdsd",
+        "status": "completed",
+        "timestamp": "2025-06-26 12:29:41",
+        "payment_status": "confirmed"
+      },
+      {
+        "order_id": 173253,
+        "service_id": 2,
+        "service_name": "Sudlanmaganli to'g'risida guvohnoma",
+        "contact_method": "📱 Shu bot orqali",
+        "contact_time": "ha",
+        "status": "completed",
+        "timestamp": "2025-06-26 19:24:41",
+        "payment_status": "confirmed"
+      },
+      {
+        "order_id": 173254,
+        "service_id": 4,
+        "service_name": "Sudlanmaganlik toʻgʻrisida guvohnoma",
+        "contact_method": "📩 SMS orqali",
+        "contact_time": "dfdfd",
+        "status": "completed",
+        "timestamp": "2025-06-26 19:40:50",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173255,
+        "service_id": 4,
+        "service_name": "Sudlanmaganlik toʻgʻrisida guvohnoma",
+        "contact_method": "📱 Shu bot orqali",
+        "contact_time": "cssc",
+        "status": "completed",
+        "timestamp": "2025-06-26 19:44:17",
+        "payment_status": "confirmed"
+      },
+      {
+        "order_id": 173257,
+        "service_id": 4,
+        "service_name": "Sudlanmaganlik toʻgʻrisida guvohnoma",
+        "contact_method": "📱 Shu bot orqali",
+        "contact_time": "Hozir",
+        "status": "completed",
+        "timestamp": "2025-06-26 20:46:25",
+        "payment_status": "confirmed"
+      },
+      {
+        "order_id": 173258,
+        "service_id": 13,
+        "service_name": "deport tekshirish",
+        "contact_method": "☎️ Qo‘ng‘iroq orqali",
+        "contact_time": "asssalom",
+        "status": "completed",
+        "timestamp": "2025-06-26 20:52:26",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173259,
+        "service_id": 13,
+        "service_name": "deport tekshirish",
+        "contact_method": "☎️ Qo‘ng‘iroq orqali",
+        "contact_time": "sdsds",
+        "status": "completed",
+        "timestamp": "2025-06-26 20:54:51",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173262,
+        "service_id": 3,
+        "service_name": "3 - DAVERNOS",
+        "contact_method": "☎️ Qo‘ng‘iroq orqali",
+        "contact_time": "Hozir",
+        "status": "completed",
+        "timestamp": "2025-06-27 03:15:45",
+        "payment_status": "awaiting_confirmation"
+      },
+      {
+        "order_id": 173265,
+        "service_id": 4,
+        "service_name": "Sudlanmaganlik toʻgʻrisida guvohnoma",
+        "contact_method": "☎️ Qo‘ng‘iroq orqali",
+        "contact_time": "scscsc",
+        "status": "pending",
+        "timestamp": "2025-06-27 04:15:47",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173266,
+        "service_id": 4,
+        "service_name": "Sudlanmaganlik toʻgʻrisida guvohnoma",
+        "contact_method": "📩 SMS orqali",
+        "contact_time": "#XIZMAT#12",
+        "status": "completed",
+        "timestamp": "2025-06-27 04:23:00",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173270,
+        "service_id": 4,
+        "service_name": "Sudlanmaganlik toʻgʻrisida guvohnoma",
+        "contact_method": "📩 SMS orqali",
+        "contact_time": "humans",
+        "status": "completed",
+        "timestamp": "2025-06-27 17:59:30"
+      },
+      {
+        "order_id": 173271,
+        "service_id": 4,
+        "service_name": "Sudlanmaganlik toʻgʻrisida guvohnoma",
+        "contact_method": "☎️ Qo‘ng‘iroq orqali",
+        "contact_time": "humans",
+        "status": "pending",
+        "timestamp": "2025-06-27 18:42:25",
+        "payment_status": "pending"
+      }
+    ],
+    "feedback_ratings": {
+      "173257": 3,
+      "173258": 3,
+      "173259": 3,
+      "173270": 5
+    },
+    "is_loyal": true
+  },
+  "6676389085": {
+    "name": "Nurzod",
+    "phone": "998908737677",
+    "orders": [
+      {
+        "order_id": 173239,
+        "service_id": 13,
+        "service_name": "deport tekshirish",
+        "contact_method": "📩 SMS orqali",
+        "contact_time": "dfdfdf",
+        "status": "pending",
+        "timestamp": "2025-06-25 20:55:56",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173240,
+        "service_id": 3,
+        "service_name": "3 - DAVERNOS",
+        "contact_method": "📱 Shu bot orqali",
+        "contact_time": "sdsdsdsdsdsd",
+        "status": "pending",
+        "timestamp": "2025-06-25 20:56:26",
+        "payment_status": "confirmed"
+      },
+      {
+        "order_id": 173241,
+        "service_id": 11,
+        "service_name": "SOLIQ",
+        "contact_method": "📩 SMS orqali",
+        "contact_time": "rfrfr",
+        "status": "cancelled",
+        "timestamp": "2025-06-25 21:23:25",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173251,
+        "service_id": 3,
+        "service_name": "3 - DAVERNOS",
+        "contact_method": "☎️ Qo‘ng‘iroq orqali",
+        "contact_time": "Hhhl",
+        "status": "pending",
+        "timestamp": "2025-06-26 12:15:00",
+        "payment_status": "pending"
+      }
+    ],
+    "rated_identifiers": []
+  },
+  "7796642794": {
+    "name": "Mehriniso",
+    "phone": null,
+    "orders": [],
+    "rated_identifiers": []
+  },
+  "5801216854": {
+    "name": "suxrob",
+    "rated_identifiers": [
+      "923",
+      "173166",
+      "173169",
+      "173215",
+      "173213",
+      "173214",
+      "173228",
+      "173230",
+      "173232",
+      "173233",
+      "173261"
+    ],
+    "phone": "998770097171",
+    "orders": [
+      {
+        "order_id": 173181,
+        "service_id": 3,
+        "service_name": "3 - DAVERNOS",
+        "contact_method": "📩 SMS orqali",
+        "contact_time": "sdsds",
+        "status": "pending",
+        "timestamp": "2025-06-23 10:37:19",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173213,
+        "service_id": 3,
+        "service_name": "3 - DAVERNOS",
+        "contact_method": "📩 SMS orqali",
+        "contact_time": "sddw",
+        "status": "cancelled",
+        "timestamp": "2025-06-24 00:22:52",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173214,
+        "service_id": 3,
+        "service_name": "3 - DAVERNOS",
+        "contact_method": "📩 SMS orqali",
+        "contact_time": "dfdfd",
+        "status": "cancelled",
+        "timestamp": "2025-06-24 00:23:35",
+        "payment_status": "confirmed"
+      },
+      {
+        "order_id": 173215,
+        "service_id": 4,
+        "service_name": "Sudlanmaganlik toʻgʻrisida guvohnoma",
+        "contact_method": "📱 Shu bot orqali",
+        "contact_time": "dedede",
+        "status": "completed",
+        "timestamp": "2025-06-24 01:29:58",
+        "payment_status": "confirmed"
+      },
+      {
+        "order_id": 173228,
+        "service_id": 11,
+        "service_name": "SOLIQ",
+        "contact_method": "📱 Shu bot orqali",
+        "contact_time": "sdsds",
+        "status": "completed",
+        "timestamp": "2025-06-25 14:42:44",
+        "payment_status": "confirmed"
+      },
+      {
+        "order_id": 173230,
+        "service_id": 3,
+        "service_name": "3 - DAVERNOS",
+        "contact_method": "📱 Shu bot orqali",
+        "contact_time": "ererr",
+        "status": "cancelled",
+        "timestamp": "2025-06-25 15:53:10",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173232,
+        "service_id": 4,
+        "service_name": "Sudlanmaganlik toʻgʻrisida guvohnoma",
+        "contact_method": "📩 SMS orqali",
+        "contact_time": "sdsdsds",
+        "status": "cancelled",
+        "timestamp": "2025-06-25 16:00:35",
+        "payment_status": "confirmed"
+      },
+      {
+        "order_id": 173233,
+        "service_id": 4,
+        "service_name": "Sudlanmaganlik toʻgʻrisida guvohnoma",
+        "contact_method": "📱 Shu bot orqali",
+        "contact_time": "rrf",
+        "status": "cancelled",
+        "timestamp": "2025-06-25 18:54:20",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173261,
+        "service_id": 13,
+        "service_name": "deport tekshirish",
+        "contact_method": "☎️ Qo‘ng‘iroq orqali",
+        "contact_time": "Kkkkd",
+        "status": "completed",
+        "timestamp": "2025-06-27 03:12:13",
+        "payment_status": "pending"
+      }
+    ],
+    "feedback_ratings": {
+      "173232": 5,
+      "173233": 5,
+      "173261": 5
+    }
+  },
+  "8072023012": {
+    "name": "Suxrob",
+    "phone": null,
+    "orders": [],
+    "rated_identifiers": []
+  },
+  "7490471192": {
+    "name": "Ogʻabek",
+    "phone": "998939060061",
+    "orders": [],
+    "rated_identifiers": []
+  },
+  "7559161145": {
+    "name": "Bekzod",
+    "phone": "998507786644",
+    "orders": [
+      {
+        "order_id": 173212,
+        "service_id": 2,
+        "service_name": "Sudlanmaganli to'g'risida guvohnoma",
+        "contact_method": "☎️ Qo‘ng‘iroq orqali",
+        "contact_time": "Chvv",
+        "status": "cancelled",
+        "timestamp": "2025-06-23 23:12:57",
+        "payment_status": "confirmed"
+      }
+    ],
+    "rated_identifiers": [
+      "173212"
+    ]
+  },
+  "7356155667": {
+    "name": "[",
+    "phone": "998505455077",
+    "orders": [
+      {
+        "order_id": 173223,
+        "service_id": 13,
+        "service_name": "deport tekshirish",
+        "contact_method": "☎️ Qo‘ng‘iroq orqali",
+        "contact_time": "ihho",
+        "status": "completed",
+        "timestamp": "2025-06-24 22:59:58",
+        "payment_status": "confirmed"
+      },
+      {
+        "order_id": 173256,
+        "service_id": 13,
+        "service_name": "deport tekshirish",
+        "contact_method": "☎️ Qo‘ng‘iroq orqali",
+        "contact_time": "21 00",
+        "status": "cancelled",
+        "timestamp": "2025-06-26 20:32:03",
+        "payment_status": "confirmed"
+      }
+    ],
+    "rated_identifiers": [
+      "173223"
+    ]
+  },
+  "6654453609": {
+    "name": "mixail",
+    "phone": "+998500090079",
+    "orders": [
+      {
+        "order_id": 173267,
+        "service_id": 4,
+        "service_name": "Sudlanmaganlik toʻgʻrisida guvohnoma",
+        "contact_method": "📩 SMS orqali",
+        "contact_time": "hozir",
+        "status": "cancelled",
+        "timestamp": "2025-06-27 09:56:15",
+        "payment_status": "pending"
+      },
+      {
+        "order_id": 173268,
+        "service_id": 4,
+        "service_name": "Sudlanmaganlik toʻgʻrisida guvohnoma",
+        "contact_method": "☎️ Qo‘ng‘iroq orqali",
+        "contact_time": "defefe",
+        "status": "cancelled",
+        "timestamp": "2025-06-27 11:14:36",
+        "payment_status": "confirmed"
+      }
+    ],
+    "first_visit": "2025-06-27 09:46:08",
+    "is_loyal": false,
+    "test_group": "B",
+    "rated_identifiers": [
+      "173267",
+      "173268"
+    ],
+    "feedback_ratings": {
+      "173267": 5,
+      "173268": 5
+    }
+  },
+  "7656975212": {
+    "name": null,
+    "phone": "77753463109",
+    "orders": [
+      {
+        "order_id": 173269,
+        "service_id": 13,
+        "service_name": "deport tekshirish",
+        "contact_method": "📩 SMS orqali",
+        "contact_time": "Krkkfkfi",
+        "status": "completed",
+        "timestamp": "2025-06-27 11:40:12",
+        "payment_status": "confirmed"
+      }
+    ],
+    "first_visit": "2025-06-27 11:38:59",
+    "is_loyal": false,
+    "test_group": "B",
+    "rated_identifiers": []
+  }
+}

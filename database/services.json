@@ -1,0 +1,77 @@
+[
+  {
+    "id": 2,
+    "name": "Sudlanmaganli to'g'risida guvohnoma",
+    "price": 884300,
+    "payment_methods": [
+      "Karta bilan"
+    ],
+    "image": null,
+    "used": 101,
+    "category": "Belgilanmagan",
+    "active": false
+  },
+  {
+    "id": 3,
+    "name": "3 - DAVERNOS",
+    "price": 32500,
+    "payment_methods": [
+      "Click",
+      "Payme",
+      "Karta bilan"
+    ],
+    "image": "AgACAgIAAxkBAAIE3mhPTxl0Jt10PTTn_IRxSYivXcsiAAJO7jEb5M55Sj5G92zAtJTFAQADAgADeAADNgQ",
+    "used": 171,
+    "category": "Belgilanmagan",
+    "active": true
+  },
+  {
+    "id": 3,
+    "name": "ISHONCHNOMA",
+    "price": 80000,
+    "payment_methods": [
+      "Click",
+      "Karta bilan",
+      "Payme"
+    ],
+    "image": "AgACAgQAAxkBAAIGU2hRe6O6jH-IPu_wR2dgVU9DlFIPAAJ2tjEbv861USz-FGFFYNj_AQADAgADeQADNgQ",
+    "category": "Belgilanmagan",
+    "active": true
+  },
+  {
+    "id": 4,
+    "name": "Sudlanmaganlik toʻgʻrisida guvohnoma",
+    "price": 87500,
+    "payment_methods": [
+      "Karta bilan"
+    ],
+    "image": "AgACAgQAAxkBAAIelWhdV3Bb_ee4bMRpJ07y_ZvEbSP_AAKZtzEb1HsUU2y8PfErD-OjAQADAgADeAADNgQ",
+    "used": 64,
+    "category": "Belgilanmagan",
+    "active": true
+  },
+  {
+    "id": 13,
+    "name": "deport tekshirish",
+    "price": 15000,
+    "payment_methods": [
+      "Click"
+    ],
+    "image": "AgACAgQAAxkBAAIahWha529ekwVMctFmqUtjVToubezxAAJYtDEbIY41UjbMzPmAoo46AQADAgADeQADNgQ",
+    "category": "#davxizmat",
+    "active": true,
+    "used": 10
+  },
+  {
+    "id": 12,
+    "name": "lisenziya",
+    "price": 15000,
+    "payment_methods": [
+      "Karta bilan"
+    ],
+    "image": "AgACAgIAAxkBAAIcy2hcF6HigdC2nyn-yhqDBS3fR0yvAAKP-jEbmPbgStHiYSDAoPCbAQADAgADeAADNgQ",
+    "category": "print",
+    "active": true,
+    "used": 2
+  }
+]
