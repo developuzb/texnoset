@@ -106,7 +106,7 @@
         "Karta bilan"
       ],
       "image": "AgACAgIAAxkBAAIE3mhPTxl0Jt10PTTn_IRxSYivXcsiAAJO7jEb5M55Sj5G92zAtJTFAQADAgADeAADNgQ",
-      "used": 171,
+      "used": 173,
       "category": "Belgilanmagan",
       "active": true
     },
@@ -131,7 +131,7 @@
         "Karta bilan"
       ],
       "image": "AgACAgQAAxkBAAIelWhdV3Bb_ee4bMRpJ07y_ZvEbSP_AAKZtzEb1HsUU2y8PfErD-OjAQADAgADeAADNgQ",
-      "used": 62,
+      "used": 65,
       "category": "Belgilanmagan",
       "active": true
     },
@@ -355,11 +355,6 @@
     "order_id": 173242,
     "thread_id": 2099
   },
-  "user_8074497104": {
-    "order_id": 173263,
-    "thread_id": 2257,
-    "is_operator_started": true
-  },
   "thread_2099": {
     "user_id": 8074497104,
     "order_id": 173242
@@ -557,25 +552,72 @@
     "status": "confirmed",
     "confirmation_time": "2025-06-27 11:42:39"
   },
-  "msg_2343": {
-    "user_id": 553740532,
-    "order_id": 173271,
-    "thread_id": 2342
-  },
-  "user_553740532": {
-    "order_id": 173271,
-    "thread_id": 2342,
-    "is_operator_started": true
-  },
-  "thread_2342": {
-    "user_id": 553740532,
-    "order_id": 173271
-  },
   "payment_173271": {
     "user_id": 553740532,
     "amount": 87500,
     "order_id": 173271,
     "thread_id": 2342,
     "status": "pending"
+  },
+  "msg_2383": {
+    "user_id": 553740532,
+    "order_id": 173272,
+    "thread_id": 2382
+  },
+  "user_553740532": {
+    "order_id": 173273,
+    "thread_id": 2386,
+    "is_operator_started": true
+  },
+  "thread_2382": {
+    "user_id": 553740532,
+    "order_id": 173272
+  },
+  "msg_2387": {
+    "user_id": 553740532,
+    "order_id": 173273,
+    "thread_id": 2386
+  },
+  "thread_2386": {
+    "user_id": 553740532,
+    "order_id": 173273
+  },
+  "payment_173273": {
+    "user_id": 553740532,
+    "amount": 32500,
+    "order_id": 173273,
+    "thread_id": 2386,
+    "status": "confirmed",
+    "confirmation_time": "2025-06-28 00:46:51"
+  },
+  "msg_2529": {
+    "user_id": 8074497104,
+    "order_id": 173274,
+    "thread_id": 2528
+  },
+  "thread_2528": {
+    "user_id": 8074497104,
+    "order_id": 173274
+  },
+  "payment_173275": {
+    "user_id": 8074497104,
+    "amount": 32500,
+    "order_id": 173275,
+    "thread_id": 2531,
+    "status": "confirmed",
+    "confirmation_time": "2025-07-10 22:39:44"
+  },
+  "user_8074497104": {
+    "thread_id": 2544,
+    "help_question": true,
+    "is_operator_started": true
+  },
+  "thread_2542": {
+    "user_id": 8074497104,
+    "order_id": null
+  },
+  "thread_2544": {
+    "user_id": 8074497104,
+    "order_id": null
   }
 }

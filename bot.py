@@ -5,7 +5,8 @@ import pytz
 import random
 import telegram.error
 from datetime import datetime, time
-from telegram import Update, ReplyKeyboardMarkup, ReplyKeyboardRemove, InlineKeyboardMarkup, InlineKeyboardButton
+from telegram.ext import ContextTypes
+from telegram import Update, ReplyKeyboardMarkup, ReplyKeyboardRemove, InlineKeyboardMarkup, InlineKeyboardButton, InlineQuery
 from telegram.constants import ParseMode
 from telegram.ext import ContextTypes, ConversationHandler, MessageHandler, filters
 import logging
@@ -20,6 +21,8 @@ from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
 executor = ThreadPoolExecutor(max_workers=2)
 import json
+import aiohttp
+
 
 METRICS_FILE = "metrics.json"
 
@@ -963,63 +966,51 @@ async def get_category(update: Update, context: ContextTypes.DEFAULT_TYPE):
     return ConversationHandler.END
     
     
+API_URL = "http://localhost:8000/api/services/"
+DEFAULT_IMAGE = "https://i.ibb.co/4w8mVTyH/Chat-GPT-Image-Jul-9-2025-04-30-59-AM.png"
+
+async def fetch_services():
+    async with aiohttp.ClientSession() as session:
+        async with session.get(API_URL) as response:
+            if response.status == 200:
+                return await response.json()
+            return []
+
 async def inline_query_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
     try:
-        query = update.inline_query.query.strip()
+        inline_query = update.inline_query
+        query = inline_query.query.lower().strip()
+        services = await fetch_services()
         results = []
 
-        # 1 - Yuqoridagi sariq "tugma"
-        results.append(
-            InlineQueryResultArticle(
-                id="prompt_service_name",
-                title="✍️ Xizmat nomini yozing",
-                description="Masalan: printer chiqarish, kserokopiya, dizayn, reklama...",
-                input_message_content=InputTextMessageContent("🚀 Xizmat izlash boshlandi..."),
-                reply_markup=InlineKeyboardMarkup([
-                    [InlineKeyboardButton("📢 Bizni telegramda kuzating!", url="https://t.me/texnosetUZ")]
-                ])
-            )
-        )
-
-        # 2 - Xizmatlar
-        services = get_services()
         for service in services:
-            if query.lower() in service["name"].lower():
+            name = service.get("name", "").lower()
+
+            if query in name or query == "":
+                duration = service.get("duration", "—")
+                cashback = service.get("cashback", 0)
+                image_url = service.get("image_url") or DEFAULT_IMAGE
+                service_id = service.get("id")
+
+                message_text = f"#XIZMAT#{service_id}"
+
                 results.append(
                     InlineQueryResultArticle(
-                        id=str(uuid4()),  # Har bir natija uchun noyob ID
+                        id=str(uuid4()),
                         title=service["name"],
-                        description=f"{service['price']} so‘m",
-                        input_message_content=InputTextMessageContent(f"#XIZMAT#{service['id']}")
+                        description=f"⏱ {duration} daqiqa | 💸 Cashback: {cashback}%",
+                        thumbnail_url=image_url,
+                        input_message_content=InputTextMessageContent(
+                            message_text=message_text
+                        )
                     )
                 )
 
-        await update.inline_query.answer(results, cache_time=0)
+        await inline_query.answer(results=results[:50], cache_time=0, is_personal=True)
 
     except Exception as e:
         logger.error(f"Inline query javobida xatolik: {e}")
-
-async def test_phone_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    logger.info("📞 test_phone_handler ishladi")
-    phone = None
-
-    if update.message and update.message.contact:
-        phone = update.message.contact.phone_number
-        logger.info(f"📲 Kontakt: {phone}")
-    elif update.message and update.message.text:
-        cleaned = re.sub(r'\D', '', update.message.text.strip())  # faqat raqamlar
-        if len(cleaned) >= 9:
-            phone = cleaned
-            logger.info(f"📝 Matn: {phone}")
-        else:
-            await update.message.reply_text("❌ Telefon raqam noto‘g‘ri. Kamida 9ta raqam bo‘lishi kerak.")
-            return
-
-    if phone:
-        await update.message.reply_text(f"✅ Telefon raqami qabul qilindi: {phone}")
-    else:
-        await update.message.reply_text("❌ Telefon raqam aniqlanmadi.")
-
+                
 async def roziman_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
     await query.answer()
@@ -1027,6 +1018,7 @@ async def roziman_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     # SAQLAB QOLINGAN ma’lumotlarni vaqtincha o‘zgaruvchilarga olib oling
     selected_service = context.user_data.get('selected_service')
+    
     order_id = context.user_data.get('order_id')
     user_id = update.effective_user.id
 
