@@ -3524,9 +3524,9 @@ async def error_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
 def main():
     if not TOKEN:
         logger.error("Bot tokeni mavjud emas.")
-        return
+        exit()
 
-    app = Application.builder().token(TOKEN).build()
+    application = Application.builder().token(TOKEN).build()
     load_bot_data(app)
     app.bot_data['services'] = get_services(admin=True)
     migrate_services()
@@ -3631,7 +3631,7 @@ def main():
     app.add_handler(CallbackQueryHandler(bonus_services_handler, pattern="^bonus_services$"))
 
     logger.info("🤖 Bot ishga tushdi!")
-    app.run_polling()
+    application.run_polling()
 
 if __name__ == "__main__":
     main()
