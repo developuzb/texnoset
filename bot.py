@@ -457,7 +457,6 @@ yumshoq_startlar = [
 def work_time_string():
     return "🕒 Ish vaqti: har kuni 08:30 dan 19:30 gacha."
 
-from dotenv import load_dotenv
 from telegram import (
     Update, InlineKeyboardButton, InlineKeyboardMarkup, ReplyKeyboardMarkup,
     ReplyKeyboardRemove, KeyboardButton, InputTextMessageContent, InlineQueryResultArticle
