@@ -964,8 +964,6 @@ async def get_category(update: Update, context: ContextTypes.DEFAULT_TYPE):
     context.user_data.clear()
     return ConversationHandler.END
     
-THUMB_URL = "https://i.ibb.co/4w8mVTyH/Chat-GPT-Image-Jul-9-2025-04-30-59-AM.png"
-
 async def inline_query_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
     try:
         query = update.inline_query.query.strip()
@@ -977,11 +975,12 @@ async def inline_query_handler(update: Update, context: ContextTypes.DEFAULT_TYP
                 id="prompt_service_name",
                 title="✍️ Xizmat nomini yozing",
                 description="Masalan: printer chiqarish, kserokopiya, dizayn, reklama...",
-                input_message_content=InputTextMessageContent("🚀 Xizmat izlash boshlandi..."),
+                input_message_content=InputTextMessageContent(
+                    "🚀 Xizmat izlash boshlandi..."),
                 reply_markup=InlineKeyboardMarkup([
-                    [InlineKeyboardButton("📢 Bizni telegramda kuzating!", url="https://t.me/texnosetUZ")]
-                ]),
-                thumb_url=THUMB_URL  # 🔼 Sariq tugma uchun ham rasm
+                    [InlineKeyboardButton(
+                        "📢 Bizni telegramda kuzating!", url="https://t.me/texnosetUZ")]
+                ])
             )
         )
 
@@ -991,19 +990,20 @@ async def inline_query_handler(update: Update, context: ContextTypes.DEFAULT_TYP
             if query.lower() in service["name"].lower():
                 results.append(
                     InlineQueryResultArticle(
-                        id=str(uuid4()),
+                        id=str(uuid4()),  # Har bir natija uchun noyob ID
                         title=service["name"],
                         description=f"{service['price']} so‘m",
-                        input_message_content=InputTextMessageContent(f"#XIZMAT#{service['id']}"),
-                        thumb_url=THUMB_URL  # 🔼 Har bir xizmatga ham rasm
+                        input_message_content=InputTextMessageContent(
+                            f"#XIZMAT#{service['id']}")
                     )
                 )
 
-        await update.inline_query.answer(results, cache_time=0, is_personal=True)
+        await update.inline_query.answer(results, cache_time=0)
 
     except Exception as e:
         logger.error(f"Inline query javobida xatolik: {e}")
-        
+
+
 async def roziman_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
     await query.answer()
