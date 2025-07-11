@@ -5,8 +5,7 @@ import pytz
 import random
 import telegram.error
 from datetime import datetime, time
-from telegram.ext import ContextTypes
-from telegram import Update, ReplyKeyboardMarkup, ReplyKeyboardRemove, InlineKeyboardMarkup, InlineKeyboardButton, InlineQuery
+from telegram import Update, ReplyKeyboardMarkup, ReplyKeyboardRemove, InlineKeyboardMarkup, InlineKeyboardButton
 from telegram.constants import ParseMode
 from telegram.ext import ContextTypes, ConversationHandler, MessageHandler, filters
 import logging
@@ -21,20 +20,8 @@ from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
 executor = ThreadPoolExecutor(max_workers=2)
 import json
-import aiohttp
-from fastapi import FastAPI
-import threading
-import uvicorn
-import asyncio
 
-app = FastAPI()
 METRICS_FILE = "metrics.json"
-
-def get_services():
-    return [{"id": 1, "name": "Xizmat A", "duration": 15, "cashback": 10}]
-
-def run_api():
-    uvicorn.run(app, host="0.0.0.0", port=8000)
 
 if not os.path.exists("bot_data.json"):
     print("ℹ bot_data.json fayli topilmadi, yangi yaratilmoqda")
@@ -467,6 +454,7 @@ yumshoq_startlar = [
 def work_time_string():
     return "🕒 Ish vaqti: har kuni 08:30 dan 19:30 gacha."
 
+from dotenv import load_dotenv
 from telegram import (
     Update, InlineKeyboardButton, InlineKeyboardMarkup, ReplyKeyboardMarkup,
     ReplyKeyboardRemove, KeyboardButton, InputTextMessageContent, InlineQueryResultArticle
@@ -490,7 +478,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Load environment variables
-TOKEN = os.getenv("BOT_TOKEN")
+load_dotenv()
+TOKEN = os.getenv("TELEGRAM_TOKEN")
 try:
     ADMIN_ID = int(os.getenv("ADMIN_ID"))
     GROUP_ID = int(os.getenv("GROUP_ID"))
@@ -632,6 +621,9 @@ def update_metrics(event: str, group: str = None):
         json.dump(data, f, indent=2, ensure_ascii=False)
 
 # Start funksiyasi
+
+
+# Start funksiyasi
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_id = update.effective_user.id
     logger.info(f"/start buyrug‘i keldi. Foydalanuvchi ID: {user_id}")
@@ -744,8 +736,6 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         reply_markup=markup
     )
     return ConversationHandler.END
-
-
 
 async def bonus_services_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
@@ -976,51 +966,63 @@ async def get_category(update: Update, context: ContextTypes.DEFAULT_TYPE):
     return ConversationHandler.END
     
     
-API_URL = "http://127.0.0.1:8000/api/services/"
-DEFAULT_IMAGE = "https://i.ibb.co/4w8mVTyH/Chat-GPT-Image-Jul-9-2025-04-30-59-AM.png"
-
-async def fetch_services():
-    async with aiohttp.ClientSession() as session:
-        async with session.get(API_URL) as response:
-            if response.status == 200:
-                return await response.json()
-            return []
-
 async def inline_query_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
     try:
-        inline_query = update.inline_query
-        query = inline_query.query.lower().strip()
-        services = await fetch_services()
+        query = update.inline_query.query.strip()
         results = []
 
+        # 1 - Yuqoridagi sariq "tugma"
+        results.append(
+            InlineQueryResultArticle(
+                id="prompt_service_name",
+                title="✍️ Xizmat nomini yozing",
+                description="Masalan: printer chiqarish, kserokopiya, dizayn, reklama...",
+                input_message_content=InputTextMessageContent("🚀 Xizmat izlash boshlandi..."),
+                reply_markup=InlineKeyboardMarkup([
+                    [InlineKeyboardButton("📢 Bizni telegramda kuzating!", url="https://t.me/texnosetUZ")]
+                ])
+            )
+        )
+
+        # 2 - Xizmatlar
+        services = get_services()
         for service in services:
-            name = service.get("name", "").lower()
-
-            if query in name or query == "":
-                duration = service.get("duration", "—")
-                cashback = service.get("cashback", 0)
-                image_url = service.get("image_url") or DEFAULT_IMAGE
-                service_id = service.get("id")
-
-                message_text = f"#XIZMAT#{service_id}"
-
+            if query.lower() in service["name"].lower():
                 results.append(
                     InlineQueryResultArticle(
-                        id=str(uuid4()),
+                        id=str(uuid4()),  # Har bir natija uchun noyob ID
                         title=service["name"],
-                        description=f"⏱ {duration} daqiqa | 💸 Cashback: {cashback}%",
-                        thumbnail_url=image_url,
-                        input_message_content=InputTextMessageContent(
-                            message_text=message_text
-                        )
+                        description=f"{service['price']} so‘m",
+                        input_message_content=InputTextMessageContent(f"#XIZMAT#{service['id']}")
                     )
                 )
 
-        await inline_query.answer(results=results[:50], cache_time=0, is_personal=True)
+        await update.inline_query.answer(results, cache_time=0)
 
     except Exception as e:
         logger.error(f"Inline query javobida xatolik: {e}")
-                
+
+async def test_phone_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    logger.info("📞 test_phone_handler ishladi")
+    phone = None
+
+    if update.message and update.message.contact:
+        phone = update.message.contact.phone_number
+        logger.info(f"📲 Kontakt: {phone}")
+    elif update.message and update.message.text:
+        cleaned = re.sub(r'\D', '', update.message.text.strip())  # faqat raqamlar
+        if len(cleaned) >= 9:
+            phone = cleaned
+            logger.info(f"📝 Matn: {phone}")
+        else:
+            await update.message.reply_text("❌ Telefon raqam noto‘g‘ri. Kamida 9ta raqam bo‘lishi kerak.")
+            return
+
+    if phone:
+        await update.message.reply_text(f"✅ Telefon raqami qabul qilindi: {phone}")
+    else:
+        await update.message.reply_text("❌ Telefon raqam aniqlanmadi.")
+
 async def roziman_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
     await query.answer()
@@ -1028,7 +1030,6 @@ async def roziman_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     # SAQLAB QOLINGAN ma’lumotlarni vaqtincha o‘zgaruvchilarga olib oling
     selected_service = context.user_data.get('selected_service')
-    
     order_id = context.user_data.get('order_id')
     user_id = update.effective_user.id
 
@@ -3532,11 +3533,12 @@ async def error_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
         elif update.message:
             await update.message.reply_text("❌ Botda xato yuz berdi. Iltimos, keyinroq urinib ko‘ring.")
             
+          
 
 def main():
     if not TOKEN:
         logger.error("Bot tokeni mavjud emas.")
-        exit()
+        return
 
     app = Application.builder().token(TOKEN).build()
     load_bot_data(app)
@@ -3642,16 +3644,8 @@ def main():
     app.add_error_handler(error_handler)
     app.add_handler(CallbackQueryHandler(bonus_services_handler, pattern="^bonus_services$"))
 
-async def run_bot():    
-    await application.initialize()
-    await application.start()
-    await application.updater.start_polling()
-    await application.updater.wait_for_stop()
-    
-
     logger.info("🤖 Bot ishga tushdi!")
     app.run_polling()
 
 if __name__ == "__main__":
-    threading.Thread(target=run_api).start()  # Backendni alohida ishga tushirish
-    asyncio.run(run_bot())  # Botni ishga tushirish
+    main()
