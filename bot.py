@@ -22,9 +22,19 @@ from concurrent.futures import ThreadPoolExecutor
 executor = ThreadPoolExecutor(max_workers=2)
 import json
 import aiohttp
+from fastapi import FastAPI
+import threading
+import uvicorn
+import asyncio
 
-
+app = FastAPI()
 METRICS_FILE = "metrics.json"
+
+def get_services():
+    return [{"id": 1, "name": "Xizmat A", "duration": 15, "cashback": 10}]
+
+def run_api():
+    uvicorn.run(app, host="0.0.0.0", port=8000)
 
 if not os.path.exists("bot_data.json"):
     print("ℹ bot_data.json fayli topilmadi, yangi yaratilmoqda")
@@ -735,6 +745,8 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     )
     return ConversationHandler.END
 
+
+
 async def bonus_services_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
     await query.answer()
@@ -964,7 +976,7 @@ async def get_category(update: Update, context: ContextTypes.DEFAULT_TYPE):
     return ConversationHandler.END
     
     
-API_URL = "http://localhost:8000/api/services/"
+API_URL = "http://127.0.0.1:8000/api/services/"
 DEFAULT_IMAGE = "https://i.ibb.co/4w8mVTyH/Chat-GPT-Image-Jul-9-2025-04-30-59-AM.png"
 
 async def fetch_services():
@@ -3630,8 +3642,16 @@ def main():
     app.add_error_handler(error_handler)
     app.add_handler(CallbackQueryHandler(bonus_services_handler, pattern="^bonus_services$"))
 
+async def run_bot():    
+    await application.initialize()
+    await application.start()
+    await application.updater.start_polling()
+    await application.updater.wait_for_stop()
+    
+
     logger.info("🤖 Bot ishga tushdi!")
     app.run_polling()
 
 if __name__ == "__main__":
-    main()
+    threading.Thread(target=run_api).start()  # Backendni alohida ishga tushirish
+    asyncio.run(run_bot())  # Botni ishga tushirish
